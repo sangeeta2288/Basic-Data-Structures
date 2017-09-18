@@ -1,6 +1,7 @@
+# check given string is paliandrome or not?
 #space - O(2n) ==> O(n) extra space
 # Time- O(2n)
-
+# recursive method
 str2= ''
 str1= 'manu'
 s=[]

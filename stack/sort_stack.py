@@ -1,5 +1,6 @@
 # sort the given stack using only one more stack, no other data structure
-# Recursive methos
+# Recursive methods
+# sort only using one more stack, not with any extra data structure  
 # Time -  and Space - 
 
 s1 =[1,6,5,3,2,9]

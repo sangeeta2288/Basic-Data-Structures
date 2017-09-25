@@ -18,4 +18,8 @@ def solve_equation(equation):
         elif(op == "/"):
                 return ("x = " + str(num2 * num1))
 
+eq = input("Enter the equation: ")
+print(solve_equation(eq))
+
+
 

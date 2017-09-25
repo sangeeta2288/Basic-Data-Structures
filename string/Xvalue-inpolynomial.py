@@ -4,3 +4,18 @@
 # equation will be input from user in string format
 # Time-
 # Space-O(1)
+
+def solve_equation(equation):
+        x, op, num1,equal, num2 = equation.split()
+        num1, num2 = int(num1), int(num2)
+        if (op == "+"):
+                return ("x= " + str(num2 - num1))
+
+        elif(op == "-"):
+                return ("x = " + str(num2 + num1))
+        elif(op == "*"):
+                return ("x = " + str(num2 / num1))
+        elif(op == "/"):
+                return ("x = " + str(num2 * num1))
+
+
